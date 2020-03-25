@@ -9,6 +9,10 @@ const HomePage = () => {
       <Link to="/gallery">
         Go to my gallery
       </Link>
+
+      <Link to="/about">
+        Go to about
+      </Link>
     </div>
   )
 };
