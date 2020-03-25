@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Header from '../components/Header';
 
+import AboutPage from '../pages/AboutPage';
 import HomePage from '../pages/HomePage';
 import GalleryPage from '../pages/GalleryPage';
 
@@ -17,6 +18,9 @@ const MainRouter = () => {
                     </Route>
                     <Route path="/gallery">
                         <GalleryPage />
+                    </Route>
+                    <Route path="/about" exact>
+                        <AboutPage />
                     </Route>
                 </Switch>
             </BrowserRouter>
